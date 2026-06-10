@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap'); /* Variable */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('InterVariable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-handwritten {
+    font-family: "Patrick Hand", cursive;
+}
+
+.font-fancy {
+    font-family: "Libre Baskerville", serif;
+}
+
+.font-sans {
+    font-family: 'Inter', sans-serif;
+    font-feature-settings: "cv11" 1, "ss07" 1;
+}
