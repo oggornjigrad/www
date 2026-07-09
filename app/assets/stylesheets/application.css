@@ -58,4 +58,29 @@ header > .visible-navbar > .navbar-links {
     min-height: calc(100vh - var(--header-height));
 
     padding: 0 var(--header-side-padding);
+
+    z-index: 1;
+}
+
+.hover-navbar {
+    max-width: calc(var(--header-width) - (2* var(--header-side-padding)));
+    min-height: 20vh;
+
+    background-color: red;
+    background-image: none;
+
+    margin: auto auto;
+    margin-top: 2vh;
+
+    padding: 2rem;
+
+    box-sizing: border-box;
+
+    z-index: 10;
+
+    opacity: 0;
+}
+
+header:has(:hover) > .hover-navbar {
+    opacity: 100;
 }
